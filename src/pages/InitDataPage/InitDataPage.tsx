@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { List, Placeholder } from "@telegram-apps/telegram-ui";
 import WebApp from "@twa-dev/sdk";
+import { WebAppUser } from "@twa-dev/types";
 
 import { DisplayData } from "@/components/DisplayData/DisplayData.tsx";
 
@@ -15,7 +16,12 @@ import { DisplayData } from "@/components/DisplayData/DisplayData.tsx";
  * @param {ExactWebAppUser} user
  * @returns {DisplayDataRow[]}
  */
-function getUserRows(user) {
+function getUserRows(
+  user: WebAppUser & {
+    added_to_attachment_menu?: boolean;
+    allows_write_to_pm?: boolean;
+  },
+) {
   return [
     { title: "id", value: user.id.toString() },
     { title: "username", value: user.username },
