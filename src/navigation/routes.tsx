@@ -1,18 +1,30 @@
-import { IndexPage } from '@/pages/IndexPage/IndexPage';
-import { InitDataPage } from '@/pages/InitDataPage/InitDataPage';
-import { LaunchParamsPage } from '@/pages/LaunchParamsPage/LaunchParamsPage.tsx';
-import { ThemeParamsPage } from '@/pages/ThemeParamsPage/ThemeParamsPage.tsx';
-import { TONConnectPage } from '@/pages/TONConnectPage/TONConnectPage';
+import { InitDataPage } from "@/pages/InitDataPage/InitDataPage";
+import { LaunchParamsPage } from "@/pages/LaunchParamsPage/LaunchParamsPage.tsx";
+import { ThemeParamsPage } from "@/pages/ThemeParamsPage/ThemeParamsPage.tsx";
+import { TONConnectPage } from "@/pages/TONConnectPage/TONConnectPage";
+import { StartPage } from "@/pages/StartPage.tsx";
+import { BalancePage } from "@/pages/BalancePage.tsx";
+import { HedgePage } from "@/pages/HedgePage.tsx";
+import { HedgeSuccessPage } from "@/pages/HedgeSuccessPage.tsx";
+import { TradesPage } from "@/pages/TradesPage.tsx";
 
 export const routes = [
-  { path: '/', Component: IndexPage },
-  { path: '/init-data', Component: InitDataPage, title: 'Init Data' },
-  { path: '/theme-params', Component: ThemeParamsPage, title: 'Theme Params' },
-  { path: '/launch-params', Component: LaunchParamsPage, title: 'Launch Params' },
+  { path: "/", Component: StartPage },
+  { path: "/balance", Component: BalancePage, title: "Balance" },
+  { path: "/hedge", Component: HedgePage, title: "Hedge" },
+  { path: "/hedge-success", Component: HedgeSuccessPage, title: "Success" },
+  { path: "/trades", Component: TradesPage, title: "Trades" },
+  { path: "/init-data", Component: InitDataPage, title: "Init Data" },
+  { path: "/theme-params", Component: ThemeParamsPage, title: "Theme Params" },
   {
-    path: '/ton-connect',
+    path: "/launch-params",
+    Component: LaunchParamsPage,
+    title: "Launch Params",
+  },
+  {
+    path: "/ton-connect",
     Component: TONConnectPage,
-    title: 'TON Connect',
+    title: "TON Connect",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
