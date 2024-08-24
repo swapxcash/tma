@@ -12,7 +12,7 @@ import { Link } from "@/components/Link/Link.tsx";
 
 import "./IndexPage.css";
 import WebApp from "@twa-dev/sdk";
-import { allowedUserNicknames } from "@/constants/users.ts";
+import { allowedUserNicknames } from "@/constants";
 import { BsSignStop } from "react-icons/bs";
 
 export function IndexPage() {

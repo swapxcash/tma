@@ -1,0 +1,11 @@
+{
+  "settings": "Settings",
+  "my_positions": "My positions",
+  "hedge": "Hedge",
+  "language": "Language",
+  "welcome_message": "Welcome to our application",
+  "current_balance": "Current Balance",
+  "balance": "Balance",
+  "balance_change": "Balance Change",
+  "balance_top_up": "Balance Top Up"
+}

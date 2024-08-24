@@ -16,20 +16,20 @@ export const HedgePage = () => {
         <Input header="EUR" placeholder="amount eur" className="grow" />
         <Input header="USD" placeholder="amount usd" className="grow" />
       </div>
-      <Section header="Тег">
+      <Section header="Название позиции">
         <List>
           <Cell>
             <Badge mode="primary" type="number">
-              Тег 1
+              Roterdam
             </Badge>
             <Badge mode="primary" type="number">
-              Тег 2
+              Germany
             </Badge>
             <Badge mode="primary" type="number">
-              Тег 3
+              SP
             </Badge>
             <Badge mode="primary" type="number">
-              Тег 4
+              Warsaw
             </Badge>
           </Cell>
         </List>

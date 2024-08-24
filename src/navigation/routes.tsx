@@ -7,9 +7,11 @@ import { BalancePage } from "@/pages/BalancePage.tsx";
 import { HedgePage } from "@/pages/HedgePage.tsx";
 import { HedgeSuccessPage } from "@/pages/HedgeSuccessPage.tsx";
 import { TradesPage } from "@/pages/TradesPage.tsx";
+import { SettingsPage } from "@/pages/SettingsPage.tsx";
 
 export const routes = [
   { path: "/", Component: StartPage },
+  { path: "/settings", Component: SettingsPage, title: "Settings" },
   { path: "/balance", Component: BalancePage, title: "Balance" },
   { path: "/hedge", Component: HedgePage, title: "Hedge" },
   { path: "/hedge-success", Component: HedgeSuccessPage, title: "Success" },
