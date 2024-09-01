@@ -1,17 +1,15 @@
-import { Headline, List, Section } from "@telegram-apps/telegram-ui";
+import { Section } from "@telegram-apps/telegram-ui";
 import { Language } from "@/components/Language.tsx";
 import { useTranslation } from "react-i18next";
+import { Page } from "@/components/Page.tsx";
 
 export const SettingsPage = () => {
   const { t } = useTranslation();
   return (
-    <List>
-      <Headline weight="3" style={{ padding: "10px 22px 0px" }}>
-        {t("settings")}
-      </Headline>
+    <Page title={t("settings")}>
       <Section header={t("language")}>
         <Language />
       </Section>
-    </List>
+    </Page>
   );
 };

@@ -4,6 +4,9 @@
   "hedge": "Хеджировать",
   "language": "Язык",
   "welcome_message": "Добро пожаловать",
+  "last_updated": "Последнее обновление",
+  "position_title": "Название позиции",
+
   "current_balance": "Текущий баланс",
   "balance": "Баланс",
   "balance_change": "Изменение баланса",

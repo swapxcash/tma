@@ -4,7 +4,7 @@ import { ThemeParamsPage } from "@/pages/ThemeParamsPage/ThemeParamsPage.tsx";
 import { TONConnectPage } from "@/pages/TONConnectPage/TONConnectPage";
 import { StartPage } from "@/pages/StartPage.tsx";
 import { BalancePage } from "@/pages/BalancePage.tsx";
-import { HedgePage } from "@/pages/HedgePage.tsx";
+import { HedgePage } from "@/pages/HedgePage/HedgePage.tsx";
 import { HedgeSuccessPage } from "@/pages/HedgeSuccessPage.tsx";
 import { TradesPage } from "@/pages/TradesPage.tsx";
 import { SettingsPage } from "@/pages/SettingsPage.tsx";

@@ -28,7 +28,7 @@ i18n
   .use(initReactI18next) // pass the i18n instance to react-i18next
   .init({
     resources,
-    fallbackLng: "en", // default language
+    fallbackLng: "ru", // default language
     detection: {
       order: ["localStorage", "cookie"],
       caches: ["localStorage", "cookie"],

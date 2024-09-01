@@ -4,6 +4,9 @@
   "hedge": "Hedge",
   "language": "Language",
   "welcome_message": "Welcome to our application",
+  "last_updated": "Last updated",
+  "position_title": "Position Name",
+
   "current_balance": "Current Balance",
   "balance": "Balance",
   "balance_change": "Balance Change",
